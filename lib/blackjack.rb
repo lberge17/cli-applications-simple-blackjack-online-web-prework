@@ -4,6 +4,7 @@ end
 
 def deal_card
   random = (rand() * 12).to_i
+  random
 end
 
 def display_card_total
