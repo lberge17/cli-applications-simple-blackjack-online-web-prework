@@ -3,7 +3,7 @@ def welcome
 end
 
 def deal_card
-  random = (rand() * 12).to_i
+  random = (rand() * 11 + 1).to_i
   random
 end
 
