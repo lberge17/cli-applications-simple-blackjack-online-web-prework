@@ -55,10 +55,10 @@ end
 def runner
   welcome
   initial_round
-  hit?
+  hit?(card_total)
   if user_input == 's'
     hit?
   end
-end_game
+end_game(card_total)
 end
     
