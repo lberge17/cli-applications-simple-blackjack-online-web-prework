@@ -56,9 +56,9 @@ def runner
   welcome
   initial_round
   hit?
-  if user_input == 'h'
+  if user_input == 's'
     hit?
   end
-  
+end_game
 end
     
